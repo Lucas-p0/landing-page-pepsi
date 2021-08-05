@@ -30,6 +30,7 @@ color: white;
     text-decoration: none;
     margin: 0 0 0 40px;
 }
+/*Conteudo principal*/
 .conteudo{
     display:flex;
     margin: 0 100px;
@@ -54,6 +55,7 @@ color: white;
     justify-content: center;
     line-height: 1.5em;
 }
+/*Texto conteudo principal*/
 .caixa-texto{
     line-height: 1.5em;
     justify-content: center;
@@ -84,6 +86,7 @@ color: white;
     padding: 0 0 0 164px;
     
 }
+/*Icones social*/
 .icons{
     display: flex;
     justify-content:center;
@@ -99,6 +102,7 @@ color: white;
     margin: 0 0 34px 0;
     cursor:pointer;
 }
+/*Miniatura das latas*/
 .miniaturas{
     display: flex;
     justify-content:center;

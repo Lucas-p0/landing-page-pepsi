@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://lucas-p0.github.io/landing_Page-pepsi/style.css">
 </head>
 
-<body onload="rodarImgs()">
-    <section class="section">
+<body>
+    <section class="section" id="sect">
         <header>
             <a class='imgLogo' href=""><img src="https://lucas-p0.github.io/landing_Page-pepsi/img/logoPepsi.png" alt=""></a>
             <ul>
@@ -35,7 +35,7 @@
             </p>
             <a href="#">ver todos os produtos</a>
         </div>
-        <div class="caixa-img" id="img1">
+        <div class="caixa-img">
             <img src="https://lucas-p0.github.io/landing_Page-pepsi/img/pepsi001.png" alt="imagem lata" width="260px" id="img">
         </div>
         <ul class="icons">
@@ -46,9 +46,9 @@
     </main>
     
     <ul class="miniaturas">
-        <li><img src="https://lucas-p0.github.io/landing_Page-pepsi/img/pepsiPequenaAzul.png" alt="Lata pepsi azul"></li>
-        <li><img src="https://lucas-p0.github.io/landing_Page-pepsi/img/pepsiPequenaBranca.png" alt="Lata pepsi branco"></li>
-        <li><img src="https://lucas-p0.github.io/landing_Page-pepsi/img/pepsiPequenaPreta.png" alt="Lata pepsi preta"></li>        
+        <li><img src="https://lucas-p0.github.io/landing_Page-pepsi/img/pepsiPequenaAzul.png" alt="Lata pepsi azul"onclick="trocaImg('img/pepsiPequenaAzul.png');trocaBackground('#0062be')"></li>
+        <li><img src="https://lucas-p0.github.io/landing_Page-pepsi/img/pepsiPequenaBranca.png" alt="Lata pepsi branco" onclick="trocaImg('img/pepsiPequenaBranca.png');trocaBackground('#e60c2c')"></li>
+        <li><img src="https://lucas-p0.github.io/landing_Page-pepsi/img/pepsiPequenaPreta.png" alt="Lata pepsi preta" onclick="trocaImg('img/pepsiPequenaPreta.png');trocaBackground('#1e1e1e')"></li>        
     </ul>
     <script src="/script.js"></script>
 </body>
