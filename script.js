@@ -3,5 +3,8 @@ function trocaImg(img) {
 }
 function trocaBackground(cor) {
     const sect = document.getElementById('sect')
-    sect.style.background = cor
+    document.body.style.background = cor
+
+    /*sect.style.background = cor
+*/
 }
