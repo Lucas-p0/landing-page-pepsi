@@ -12,11 +12,7 @@ background-color: #0062be;
 color: white;
 }
 /*header*/
-.section{
-    display: flex;
-    justify-content: center;
-    line-height: 1.5em;
-}
+
 .section header{
     display:flex;
     justify-content: space-between;
