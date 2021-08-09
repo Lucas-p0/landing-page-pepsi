@@ -12,7 +12,11 @@ background-color: #0062be;
 color: white;
 }
 /*header*/
-
+.section{
+    display: flex;
+    justify-content: center;
+    line-height: 1.5em;
+}
 .section header{
     display:flex;
     justify-content: space-between;
@@ -50,11 +54,7 @@ color: white;
     margin: -48px 0 -18px 0px;
     
 }
-.content{
-    display: flex;
-    justify-content: center;
-    line-height: 1.5em;
-}
+
 /*Texto conteudo principal*/
 .caixa-texto{
     line-height: 1.5em;
