@@ -123,4 +123,17 @@ color: white;
         padding: 0 0 0 164px;
         margin: 0 19px;
     }
+    conteudo h2 {
+        font-size: 64px;
+        font-weight: 900;
+        line-height: 1.5em;
+        position: relative;
+        margin: 109px 0 0 0;
+    }
+    miniaturas {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 36px 0 0 0;
+    }
 }
