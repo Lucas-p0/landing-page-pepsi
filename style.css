@@ -117,3 +117,10 @@ color: white;
     margin: -15px 0px 20px;
     transition: 0.5s;     
 }
+@media(max-width){
+    .caixa-img {
+        display: flex;
+        padding: 0 0 0 164px;
+        margin: 0 19px;
+    }
+}
