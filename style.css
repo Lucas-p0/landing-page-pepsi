@@ -124,6 +124,10 @@ color: white;
         display: flex;
         padding: 0 0 0 164px;
         margin: 0 19px;
+        padding: 5px 8px 28px 87px;
+    }
+    .conteudo{
+        margin: 0px 87px;
     }
     .conteudo h2 {
         font-size: 37px;
