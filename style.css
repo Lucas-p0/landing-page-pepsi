@@ -47,7 +47,6 @@ color: white;
     font-weight: 900;
     line-height: 1.5em;
     margin: -48px 0 -18px 0px;
-    
 }
 
 /*Texto conteudo principal*/
@@ -117,20 +116,27 @@ color: white;
     margin: -15px 0px 20px;
     transition: 0.5s;     
 }
-@media(max-width:991px){
+@media(max-width:500px){
+    body{
+        margin:0px 0 0 -45px;
+    }
     .caixa-img {
         display: flex;
         padding: 0 0 0 164px;
         margin: 0 19px;
     }
-    conteudo h2 {
-        font-size: 64px;
+    .conteudo h2 {
+        font-size: 37px;
         font-weight: 900;
         line-height: 1.5em;
         position: relative;
-        margin: 109px 0 0 0;
+        margin: 95px 0 0 0;
     }
-    miniaturas {
+    .conteudo span{
+        font-size: 75px;
+        margin: -25px 0 0 0;
+    }
+    .miniaturas {
         display: flex;
         justify-content: center;
         list-style: none;
